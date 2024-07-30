@@ -1,0 +1,62 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/CementTiles.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/abb/irb/protos/Irb4600-40.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/CardboardBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.2114976543942518 -0.19340573832053512 -0.9580516492185681 4.580482436781908
+  position 1.239300547709879 -15.577403718256999 7.718775424647283
+}
+TexturedBackground {
+  texture "empty_office"
+  luminosity 2
+}
+TexturedBackgroundLight {
+  texture "empty_office"
+  luminosity 2
+}
+RectangleArena {
+  floorSize 6 6
+  floorTileSize 3 3
+  floorAppearance CementTiles {
+  }
+}
+CardboardBox {
+  size 1 1 1
+}
+Irb4600-40 {
+  hidden position_0_0 0.024978262581277912
+  hidden rotation_1 0 0 1 0.024978262581271272
+  hidden position_1_0 -0.01987147288531632
+  hidden linearVelocity_1 1.4438722016068206e-14 5.806376575329611e-16 -6.214086266796537e-14
+  hidden angularVelocity_1 -5.95374874117505e-14 9.548729630111039e-14 -1.969419488439396e-14
+  hidden rotation_2 0 -1 0 0.019871472885310236
+  hidden position_2_0 0.010158719488752781
+  hidden linearVelocity_2 1.0775786776916493e-13 5.744888854876243e-14 -1.1277962630299196e-13
+  hidden angularVelocity_2 -1.3348056871002808e-13 1.9940269175020608e-13 -3.3120272324643213e-14
+  hidden rotation_3 0 1 0 0.010158719488760914
+  hidden position_3_0 0.25999961406251537
+  hidden linearVelocity_3 2.5642133907601565e-13 1.413904576310909e-13 -2.4593103179984204e-13
+  hidden angularVelocity_3 -2.290984197435731e-13 3.098008627097062e-13 -4.697523042122742e-14
+  hidden rotation_4 1 0 0 0.25999961406251576
+  hidden position_4_0 -0.019999897217438473
+  hidden linearVelocity_4 2.8443588884859187e-13 1.1342745922641326e-13 -5.865703258320831e-13
+  hidden angularVelocity_4 -3.2284857015130885e-13 3.8844392463631685e-13 -5.92535503659396e-14
+  hidden rotation_5 0 -1 0 0.019999897217441713
+  hidden position_5_0 4.116879492260767e-08
+  hidden linearVelocity_5 2.9143894586129654e-13 8.34466288750065e-14 -8.278011738079526e-13
+  hidden angularVelocity_5 -4.108898467277486e-13 4.056824092382769e-13 -6.079301996049064e-14
+  hidden rotation_6 1 0 0 4.2146848510894035e-08
+  hidden linearVelocity_6 -4.2264906364296306e-11 1.0036850736187198e-10 1.0495500656687418e-09
+  hidden angularVelocity_6 4.3727236417324963e-07 -3.0210172220566483e-10 1.7744969447425194e-08
+  translation 0.054115 -0.106334 0.78559
+  rotation -0.9237333950471414 0.2042700873588792 0.3240221385724715 -0.05758530717958621
+  controller "pen_robot"
+  staticBase TRUE
+}
